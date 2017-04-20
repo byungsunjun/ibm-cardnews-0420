@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ibm-cardnews-0420
+  host: ibm-cardnews-0420
+  disk_quota: 1024M
+  command: npm start
